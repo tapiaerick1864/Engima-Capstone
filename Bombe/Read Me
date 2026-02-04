@@ -1,0 +1,13 @@
+This portion of the AI capstone is to recreate Turing's Bombe to serve as a comparison
+to our machine learning model's accuracy and speed
+
+Quick notes on how the bombe works
+designed by Alan Turing and Gordon Welchman
+used the enigma machines biggest weakness in order to solve what the settings were
+that being that the encrypted letter would never be itself 
+ex) if you click x you could get any other letter in the alphabet except x
+
+Basic principles of how the bombe works
+1) uses known words that you know are in the encrypted text and through that it solves for
+what the possible comninations aren't
+2) kind of brute forces it until it reaches settings that do work
