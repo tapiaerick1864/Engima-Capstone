@@ -8,6 +8,28 @@ that being that the encrypted letter would never be itself
 ex) if you click x you could get any other letter in the alphabet except x
 
 Basic principles of how the bombe works
-1) uses known words that you know are in the encrypted text and through that it solves for
-what the possible comninations aren't
+1) uses known words (cribs)  that you know are in the encrypted text
 2) kind of brute forces it until it reaches settings that do work
+
+How to actually use the files
+1) Run the Bombe Text Processor file so that it converts a txt file 
+to a processed text file that removes all commas, periods, replaces numbers with characters
+ex) 3 gets turned to 3
+but also removes all of the spaces too
+
+2) after you have the processed text file run the  Processed text to encrypted text file
+This is basically the enigma machine part where it converts that processed file into a 
+encrypted text file, here you set the initial rotor positions 
+
+Currently this part has working rotors but does not have the plugboard implemented yet
+
+3) Then run whatever is the most recent version of the Bombe file
+It'll have a small built in enigma machine, its importnat since if you run it without it
+its like opening a lock when there is no lock
+
+After its done it'll print out its results and its estimated initial rotor positions
+
+TLDR
+1) run text processor with the text file you want to process
+2) Run the processed text to encrypted text file using previous file as its input file
+3) run bombe 
